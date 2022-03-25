@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pyperclip = "*"
+requests = "*"
+twilio = "*"
+bs4 = "*"
+spotipy = "*"
+selenium = "*"
+webdriver-manager = "*"
+flask = "*"
+flask-wtf = "*"
+flask-bootstrap = "*"
+flask-sqlalchemy = "*"
+flask-ckeditor = "*"
+flask-login = "*"
+flask-gravatar = "*"
+gunicorn = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
