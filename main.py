@@ -224,6 +224,9 @@ def delete_post(post_id):
     db.session.commit()
     return redirect(url_for('get_all_posts'))
 
+@app.route("/plot")
+def contact():
+    return render_template("temp-plot.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
